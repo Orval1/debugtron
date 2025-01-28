@@ -1,12 +1,17 @@
 {
-    "total_lines": 3,
-    "error_count": 1,
+    "total_lines": 4,
+    "error_count": 2,
     "warning_count": 1,
     "info_count": 1,
     "patterns": {
-        "404": 0,
+        "404": 1,
         "500": 0,
-        "timeout": 0
+        "timeout": 1
     },
-    "timestamps": {}
+    "timestamps": {
+        "2025-01-27 12:00:00": 1,
+        "2025-01-27 12:05:00": 1,
+        "2025-01-27 12:10:00": 1,
+        "2025-01-27 12:15:00": 1
+    }
 }
