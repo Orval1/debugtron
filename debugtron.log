@@ -1,0 +1,15 @@
+2025-01-27 18:33:38.165 | INFO     | __main__:__init__:27 - DebuggingEngine initialized successfully.
+2025-01-27 18:33:38.165 | INFO     | __main__:run_all:91 - Starting debugging process...
+2025-01-27 18:33:38.165 | INFO     | __main__:analyze_logs:33 - Analyzing logs from: example_logs.txt
+2025-01-27 18:33:38.165 | SUCCESS  | __main__:analyze_logs:39 - Logs analyzed successfully.
+2025-01-27 18:33:38.166 | INFO     | __main__:check_syntax:46 - Checking syntax for: example_script.py
+2025-01-27 18:33:38.166 | SUCCESS  | __main__:check_syntax:55 - No syntax issues detected.
+2025-01-27 18:33:38.166 | INFO     | __main__:analyze_performance:62 - Analyzing system performance...
+2025-01-27 18:33:39.167 | DEBUG    | __main__:analyze_performance:64 - Performance metrics: {'cpu_usage_percent': 4.6, 'memory_usage': {'total_memory': 16711385088, 'available_memory': 13158285312, 'used_memory': 3199246336, 'memory_percent': 21.3}}
+2025-01-27 18:33:39.167 | INFO     | __main__:run_plugins:71 - Running plugins...
+2025-01-27 18:33:39.168 | INFO     | __main__:run_plugins:75 - Executing plugin: log_analyzer
+2025-01-27 18:33:39.168 | SUCCESS  | __main__:run_plugins:81 - Plugin 'log_analyzer' executed successfully.
+2025-01-27 18:33:39.169 | INFO     | __main__:run_plugins:75 - Executing plugin: network_debugger
+2025-01-27 18:33:39.169 | SUCCESS  | __main__:run_plugins:81 - Plugin 'network_debugger' executed successfully.
+2025-01-27 18:33:39.169 | INFO     | __main__:run_all:105 - Debugging process completed.
+2025-01-27 18:33:39.169 | SUCCESS  | __main__:<module>:118 - Final Results: {'logs': {'errors': ['2025-01-27 12:00:00 ERROR 404 Not Found: /missing-page', '2025-01-27 12:15:00 ERROR Timeout occurred while connecting to the database.'], 'warnings': ['2025-01-27 12:10:00 WARNING Disk usage exceeds threshold.'], 'info': ['2025-01-27 12:05:00 INFO User logged in successfully.']}, 'syntax_issues': [], 'performance_metrics': {'cpu_usage_percent': 4.6, 'memory_usage': {'total_memory': 16711385088, 'available_memory': 13158285312, 'used_memory': 3199246336, 'memory_percent': 21.3}}, 'plugin_results': {'log_analyzer': {'total_lines': 4, 'error_count': 2, 'warning_count': 1, 'info_count': 1, 'patterns': {'404': 1, '500': 0, 'timeout': 1}, 'timestamps': {'2025-01-27 12:00:00': 1, '2025-01-27 12:05:00': 1, '2025-01-27 12:10:00': 1, '2025-01-27 12:15:00': 1}}, 'network_debugger': {'bytes_sent': 23788645, 'bytes_recv': 62208901, 'packets_sent': 40522, 'packets_recv': 109899}}}

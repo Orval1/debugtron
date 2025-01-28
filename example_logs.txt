@@ -1,0 +1,4 @@
+2025-01-27 12:00:00 ERROR 404 Not Found: /missing-page
+2025-01-27 12:05:00 INFO User logged in successfully.
+2025-01-27 12:10:00 WARNING Disk usage exceeds threshold.
+2025-01-27 12:15:00 ERROR Timeout occurred while connecting to the database.

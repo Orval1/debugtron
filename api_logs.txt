@@ -1,0 +1,6 @@
+2025-01-27T18:00:00|/api/login|200|350
+2025-01-27T18:01:00|/api/orders|500|2500
+2025-01-27T18:02:00|/api/products|200|150
+2025-01-27T18:03:00|/api/cart|200|900
+2025-01-27 12:00:00 GET /users 200 OK 150ms
+2025-01-27 12:05:00 POST /orders 500 Internal Server Error 500ms
